@@ -1,20 +1,6 @@
 import Image from "next/image";
 import "./page.css";
 
-import { Montserrat, Libre_Baskerville } from "next/font/google";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  variable: "--font-montserrat",
-});
-
-const libreBaskerville = Libre_Baskerville({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-libre",
-});
-
 
 export default function Home() {
   return (
